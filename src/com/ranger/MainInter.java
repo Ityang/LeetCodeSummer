@@ -3,6 +3,7 @@ package com.ranger;
 import com.ranger.leetcode.Day02;
 import com.ranger.sort.BubbleSort;
 import com.ranger.sort.QuickSort;
+import com.ranger.sort.SelectionSort;
 
 /**
  * @author Bob
@@ -25,8 +26,12 @@ public class MainInter {
 //        sort.quickSort1(arr,0,arr.length-1);
 //        print(arr);
 
-        BubbleSort sort = new BubbleSort();
-        sort.bubbleSort(arr);
+//        BubbleSort sort = new BubbleSort();
+//        sort.bubbleSort(arr);
+//        print(arr);
+
+        SelectionSort sort = new SelectionSort();
+        sort.sort(arr);
         print(arr);
 
     }
