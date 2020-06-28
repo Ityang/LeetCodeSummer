@@ -5,6 +5,9 @@ import com.ranger.sort.BubbleSort;
 import com.ranger.sort.QuickSort;
 import com.ranger.sort.SelectionSort;
 
+import java.lang.reflect.Array;
+import java.util.*;
+
 /**
  * @author Bob
  */
@@ -30,9 +33,11 @@ public class MainInter {
 //        sort.bubbleSort(arr);
 //        print(arr);
 
-        SelectionSort sort = new SelectionSort();
-        sort.sort(arr);
-        print(arr);
+//        SelectionSort sort = new SelectionSort();
+//        sort.sort(arr);
+//        print(arr);
+
+
 
     }
 
@@ -43,5 +48,20 @@ public class MainInter {
             System.out.print(num + ",");
         }
         System.out.print("]");
+    }
+
+    public static void startMap(){
+        HashMap hashMap = new HashMap();
+        TreeMap treeMap;
+        HashSet set;
+        Queue queue;
+        ArrayList list = new ArrayList();
+        LinkedList linkedList = new LinkedList();
+        Object obj = new Object();
+        Integer integer;
+        String str;
+
+        Array array ;
+
     }
 }

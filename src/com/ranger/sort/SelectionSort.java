@@ -1,6 +1,7 @@
 package com.ranger.sort;
 
 /**
+ * 选择排序
  * @author Bob
  */
 public class SelectionSort {
